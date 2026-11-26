@@ -1,0 +1,1 @@
+export default function CartSummary({count,total}){return <aside className="cart-summary"><div><span>YOUR BAG</span><strong>{count} {count===1?"item":"items"}</strong></div><div><span>SUBTOTAL</span><strong>₹{total.toLocaleString("en-IN")}</strong></div></aside>}

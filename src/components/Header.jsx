@@ -1,0 +1,1 @@
+export default function Header({count}){return <header className="header"><a className="logo" href="#">form<span>/</span>found</a><nav><a href="#shop">Discover</a><a href="#about">Our story</a><button className="cart">Bag <b>{count}</b></button></nav></header>}

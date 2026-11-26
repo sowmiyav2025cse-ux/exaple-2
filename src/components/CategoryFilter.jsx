@@ -1,0 +1,1 @@
+const categories=["All","Home","Accessories","Tech"]; export default function CategoryFilter({value,onChange}){return <div className="filters">{categories.map(c=><button key={c} className={value===c?"active":""} onClick={()=>onChange(c)}>{c}</button>)}</div>}
